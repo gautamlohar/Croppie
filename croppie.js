@@ -967,6 +967,7 @@
         self.elements.overlay.addEventListener('mousedown', mouseDown);
         self.elements.viewport.addEventListener('keydown', keyDown);
         self.elements.overlay.addEventListener('touchstart', mouseDown);
+        self.elements.overlay.addEventListener('mouseup', mouseUp);
     }
 
     function _updateOverlay() {
